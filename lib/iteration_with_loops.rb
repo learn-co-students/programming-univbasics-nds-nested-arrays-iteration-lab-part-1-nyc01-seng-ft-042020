@@ -3,4 +3,11 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
 
+  for x in src
+    for y in x 
+      if y.even?
+        puts y
+      end 
+    end 
+  end 
 end
