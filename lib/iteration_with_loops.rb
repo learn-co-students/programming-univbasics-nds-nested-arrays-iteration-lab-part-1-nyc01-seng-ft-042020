@@ -3,4 +3,11 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
 
+  src.length.times do |i|
+    src[i].length.times do |x|
+      if(src[i][x]%2===0)
+        puts src[i][x]
+      end  
+    end  
+  end
 end
